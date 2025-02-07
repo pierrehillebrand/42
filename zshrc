@@ -37,6 +37,3 @@ alias gcm="git checkout main"
 alias gcp="git checkout phillebr"
 alias gmm="git merge main"
 alias gmp="git merge phillebr"
-alias desmume="~/emul/desmume-0.9.13/desmume/src/frontend/posix/gtk2/desmume"
-
-alias melonDS="flatpak run net.kuribo64.melonDS"
