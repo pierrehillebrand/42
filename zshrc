@@ -12,6 +12,10 @@ alias ga="git add . && gis"
 alias gc="git commit -m"
 alias gp="git push"
 alias gis="git status"
+alias gcm="git checkout main"
+alias gcp="git checkout phillebr"
+alias gmm="git merge main"
+alias gmp="git merge phillebr"
 
 mdir ()
 {
@@ -31,9 +35,13 @@ zsha ()
 }
 alias bp="bash --posix"
 alias zshs="source ~/.zshrc"
-alias norminette="ls"
+alias rc="vim ~/.zshrc"
+alias rmf="rm -rf"
 
-alias gcm="git checkout main"
-alias gcp="git checkout phillebr"
-alias gmm="git merge main"
-alias gmp="git merge phillebr"
+alias re="make re"
+alias clean="make clean"
+alias f="make fclean"
+alias m="make"
+alias b="make bonus"
+
+alias norm="norminette"
