@@ -1,5 +1,5 @@
 CC = cc
-CFLAGS = -Wall -Werror -Wextra
+CFLAGS = -Wall -Werror -Wextra -g3
 LDFLAGS = -L/usr/lib -Imlx_linux -lXext -lX11 -lm -lz
 NAME = so_long
 NAME_BONUS = so_longs

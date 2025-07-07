@@ -6,7 +6,7 @@
 /*   By: phillebr <phillebr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/30 13:40:42 by phillebr          #+#    #+#             */
-/*   Updated: 2024/10/07 13:07:33 by phillebr         ###   ########.fr       */
+/*   Updated: 2025/06/30 18:45:44 by phillebr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ static void	process(char *paths[], char *av[], int *files, int ac)
 	pid = ft_calloc(sizeof(int), ac - 1);
 	if (!pid)
 		return (close(fd_exit), perror("The allocation failed "));
-	while (i < ac - 2)
+	while (i < ac - 2 )
 	{
 		if (pipe(files + i * 2))
 			return (close_fd(files, ac, NULL), perror("The pipe failed "));
